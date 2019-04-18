@@ -6,7 +6,7 @@ class Person:
         self.location = location.strip()
         self.capability = capability.strip()
         self.market = market.strip()
-        self.email = email
+        self.email = email.strip()
         self.is_mentor = is_mentor
 
     def __eq__(self, other):
